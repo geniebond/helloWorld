@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+/* 페이지들의 여러가지 색상 - 폰트 기타 등등 변경할 수 있다 */
+
+header{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+header>ul>li{
+    display: inline-block;
+    width: 50px;
+}
+
+h1{
+    background-color: yellow;
+}
+h2{
+    color:red;
+    background-color: yellowgreen;
+}
